@@ -1,0 +1,14 @@
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: scroll-marquee 40s linear infinite;
+  display: inline-flex;
+  width: max-content;
+}
