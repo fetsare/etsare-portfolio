@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/fredriketsare-web/",
+  base: "/fetsare-portfolio/",
   plugins: [react(), tailwindcss()],
 });
