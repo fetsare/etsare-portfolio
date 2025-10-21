@@ -8,5 +8,3 @@ export interface Project {
   demo?: string;
   tags?: string[];
 }
-
-export type Section = "Projects" | "Photography";

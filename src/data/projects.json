@@ -41,7 +41,6 @@
     "name": "SL Departure Kiosk",
     "description": "A web application that displays real-time departure information for public transport in Stockholm. It was created to be used at my Student Unions bar",
     "image": "images/kiosk.png",
-    "link": "/foo-bar",
     "github": "https://github.com/Mammamu4/Foo-Bar-Departures",
     "tags": ["TypeScript", "Real-time Data", "Web App"]
   },
@@ -50,7 +49,6 @@
     "description": "Game of life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.",
     "video": "videos/gameoflife.mp4",
     "github": "https://github.com/fetsare/Game-Of-life",
-    "link": "https://github.com/fetsare/Game-Of-life",
     "tags": ["Cellular Automaton", "JavaScript"]
   }
 ]

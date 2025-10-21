@@ -1,15 +1,8 @@
 import { Project } from "../data/types";
 import { IconExternalLink, IconCode } from "@tabler/icons-react";
 
-export default function ProjectCard({
-  name,
-  description,
-  image,
-  video,
-  link,
-  github,
-  tags,
-}: Project) {
+export default function ProjectCard(project: Project) {
+  const { name, description, image, video, link, github, tags } = project;
   return (
     <div className="flex flex-col break-inside-avoid items-center shadow-lg rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
       <div className="relative w-full group">
@@ -33,15 +26,17 @@ export default function ProjectCard({
         </div>
 
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 bg-blue-600 rounded-full hover:bg-blue-700 hover:scale-110 transition-all text-white shadow-md"
-            title="View Demo"
-          >
-            <IconExternalLink size={24} />
-          </a>
+          {link && (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-blue-600 rounded-full hover:bg-blue-700 hover:scale-110 transition-all text-white shadow-md"
+              title="View Demo"
+            >
+              <IconExternalLink size={24} />
+            </a>
+          )}
 
           {github && (
             <a
