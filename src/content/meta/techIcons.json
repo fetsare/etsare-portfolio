@@ -1,26 +1,26 @@
 [
   {
-    "className": "devicon-javascript-plain",
+    "className": "devicon-javascript-plain colored",
     "alt": "JavaScript",
     "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
-    "className": "devicon-typescript-plain",
+    "className": "devicon-typescript-plain colored",
     "alt": "TypeScript",
     "href": "https://www.typescriptlang.org/"
   },
   {
-    "className": "devicon-react-original",
+    "className": "devicon-react-original colored",
     "alt": "React",
     "href": "https://react.dev/"
   },
   {
-    "className": "devicon-nodejs-plain",
+    "className": "devicon-nodejs-plain colored",
     "alt": "Node.js",
     "href": "https://nodejs.org/"
   },
   {
-    "className": "devicon-nextjs-original-wordmark",
+    "className": "devicon-nextjs-plain",
     "alt": "Next.js",
     "href": "https://nextjs.org/"
   },
@@ -30,47 +30,47 @@
     "href": "https://github.com/torvalds/linux"
   },
   {
-    "className": "devicon-java-plain",
+    "className": "devicon-java-plain colored",
     "alt": "Java",
     "href": "https://www.java.com/"
   },
   {
-    "className": "devicon-git-plain",
+    "className": "devicon-git-plain colored",
     "alt": "Git",
     "href": "https://git-scm.com/"
   },
   {
-    "className": "devicon-docker-plain",
+    "className": "devicon-docker-plain colored",
     "alt": "Docker",
     "href": "https://www.docker.com/"
   },
   {
-    "className": "devicon-spring-plain",
+    "className": "devicon-spring-plain colored",
     "alt": "Spring Framework",
     "href": "https://spring.io/"
   },
   {
-    "className": "devicon-tailwindcss-plain",
+    "className": "devicon-tailwindcss-plain colored",
     "alt": "Tailwind CSS",
     "href": "https://tailwindcss.com/"
   },
   {
-    "className": "devicon-html5-plain",
+    "className": "devicon-html5-plain colored",
     "alt": "HTML5",
     "href": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
-    "className": "devicon-css3-plain",
+    "className": "devicon-css3-plain colored",
     "alt": "CSS3",
     "href": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
-    "className": "devicon-amazonwebservices-plain",
+    "className": "devicon-amazonwebservices-plain-wordmark colored",
     "alt": "Amazon Web Services",
     "href": "https://aws.amazon.com/"
   },
   {
-    "className": "devicon-github-plain",
+    "className": "devicon-github-original colored",
     "alt": "GitHub",
     "href": "https://github.com/"
   }
