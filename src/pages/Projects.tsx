@@ -1,5 +1,6 @@
 import ProjectCard from "../components/ProjectCard";
 import LogoLoop from "../components/LogoLoop";
+import FadeInSection from "../components/FadeInSection";
 import { projects, techIcons } from "../content/meta";
 
 const Projects = () => {
@@ -26,7 +27,13 @@ const Projects = () => {
       </div>
       <div className="w-full columns-1 md:columns-2 gap-4 space-y-4">
         {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+          <FadeInSection
+            key={index}
+            direction="up"
+            duration={500}
+          >
+            <ProjectCard {...project} />
+          </FadeInSection>
         ))}
       </div>
     </section>

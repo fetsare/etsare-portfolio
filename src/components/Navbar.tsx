@@ -11,6 +11,10 @@ const links: { href: string; label: string }[] = [
     href: "/projects",
     label: "Projects",
   },
+  {
+    href: "/book-reviews",
+    label: "Book Reviews",
+  },
 ];
 
 const Navbar = () => {

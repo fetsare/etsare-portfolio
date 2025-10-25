@@ -1,6 +1,7 @@
 import _projects from "./projects.json";
 import _techIcons from "./techIcons.json";
 import _socialLinks from "./socialLinks.json";
+import _bookReviews from "./bookReviews.json";
 import {
   IconBrandGithub,
   IconBrandLinkedin,
@@ -30,6 +31,11 @@ export interface SocialLink {
   label: string;
 }
 
+export interface BookReview {
+  isbn: string;
+  rating: number;
+}
+
 const _typedProjects = _projects as Project[];
 
 if (_typedProjects.some((project) => project.image && project.video)) {
@@ -51,3 +57,5 @@ export const socialLinks = _socialLinks.map((link) => ({
   ...link,
   icon: iconMap[link.icon as keyof typeof iconMap],
 }));
+
+export const bookReviews = _bookReviews as BookReview[];
