@@ -6,9 +6,9 @@ export default function Home() {
     <div>
       <FadeInSection direction="right" delay={100}>
         <p className="text-xl text-gray-700 dark:text-gray-300">
-          Web Developer from Stockholm, Sweden who enjoys creating cool stuff
-          that is not nececsarily useful. Currently prusuing a degree in
-          Computer and System sciences at the{" "}
+          Web Developer from Stockholm, Sweden who enjoys programming &
+          classical piano. Currently prusuing a degree in Computer and System
+          sciences at the{" "}
           <a className="text-blue-400 hover:underline" href="">
             Department of Computer- and System Sciences
           </a>
