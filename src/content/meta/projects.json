@@ -18,14 +18,15 @@
     "title": "SL Departure Kiosk",
     "description": "A web application that displays real-time departure information for public transport in Stockholm. It was created to be used at my Student Unions bar",
     "image": "/images/kiosk.png",
-    "source": "https://github.com/Mammamu4/Foo-Bar-Departures",
+    "source": "https://github.com/fetsare/foo-depart",
+    "link": "https://foo-depart.vercel.app",
     "tags": ["TypeScript", "Real-time Data", "Web App"]
   },
   {
     "title": "Sorting Algorithm Visualizer",
     "description": "A web application that visualizes various sorting algorithms. It was built using React with tailwindcss and typescript",
     "video": "/videos/sorting.mp4",
-    "source": "https://github.com/Mammamu4/sortingalgorithm-visualizer",
+    "source": "https://github.com/fetsare/sortingalgorithm-visualizer",
     "tags": ["React", "TypeScript", "TailwindCSS"]
   },
   {
@@ -41,7 +42,7 @@
     "description": "Web extension for systembolaget.se to view and sort by APK value (Alcohol per krona)",
     "image": "/images/apk.jpg",
     "link": "https://chromewebstore.google.com/detail/systemet-apk/ilgojcalknncdkjinjcaalhkodlflcef",
-    "source": "https://github.com/Mammamu4/APK-Extension-Systembolaget",
+    "source": "https://github.com/fetsare/APK-Extension-Systembolaget",
     "tags": ["Chrome Extension", "JavaScript"]
   },
   {
