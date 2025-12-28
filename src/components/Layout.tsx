@@ -10,7 +10,7 @@ export default function Layout() {
         <FadeInSection direction="up">
           <div className="flex items-center gap-4 mb-2">
             <img
-              src="/images/me.jpg"
+              src="/images/me.webp"
               alt="Fredrik Etsare"
               width={64}
               height={64}
