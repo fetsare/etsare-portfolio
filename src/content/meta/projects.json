@@ -1,22 +1,21 @@
 [
   {
-    "title": "Systemvetardagen",
-    "description": "A project to create a website for the Systemvetardagen event, which is a career fair for IT students. It was built using React with tailwindcss hosted with netlify. ",
-    "image": "/images/systemvetardagen.webp",
-    "link": "https://systemvetardagen.se",
-    "source": "https://github.com/Systemvetardagen/Systemvetardagen",
-    "tags": ["React", "TailwindCSS", "Netlify"]
+    "title": "Akademiskkvart",
+    "description": "Served as IT Project Leader for akademiskkvart.se, a second-hand student housing platform in Stockholm dedicated to providing fair rent to students. Led development efforts under the Stockholm Federation of Student Unions, focusing on platform improvements, feature development, and enhanced maintainability.",
+    "image": "/images/akademiskkvart.png",
+    "link": "https://akademiskkvart.se",
+    "tags": ["Next.js", "AWS Amplify", "Lambda", "DynamoDB", "Cognito"]
   },
   {
     "title": "Doalot AB",
-    "description": "A website for a IT management company called Doalot AB. It's a Nextjs app with TinaCMS for content management. The website is hosted on Vercel.",
+    "description": "Corporate website for Doalot AB, an IT management company. Built with Next.js and integrated with TinaCMS for streamlined content.",
     "image": "/images/doalot.png",
     "link": "https://doalot.se",
     "tags": ["Next.js", "TinaCMS", "Vercel"]
   },
   {
     "title": "SL Departure Kiosk",
-    "description": "A web application that displays real-time departure information for public transport in Stockholm. It was created to be used at my Student Unions bar",
+    "description": "Real-time public transport departure board for Stockholm's transit system. Designed specifically for display at a Student Union bar, providing live departure information on a kiosk-style interface.",
     "image": "/images/kiosk.png",
     "source": "https://github.com/fetsare/foo-depart",
     "link": "https://foo-depart.vercel.app",
@@ -24,14 +23,22 @@
   },
   {
     "title": "Sorting Algorithm Visualizer",
-    "description": "A web application that visualizes various sorting algorithms. It was built using React with tailwindcss and typescript",
+    "description": "Interactive visualization tool for various sorting algorithms, helping users understand algorithmic behavior through visual representations.",
     "video": "/videos/sorting.mp4",
     "source": "https://github.com/fetsare/sortingalgorithm-visualizer",
     "tags": ["React", "TypeScript", "TailwindCSS"]
   },
   {
+    "title": "Systemvetardagen",
+    "description": "Official website for Systemvetardagen, a premier career fair connecting IT students with industry opportunities.",
+    "image": "/images/systemvetardagen.webp",
+    "link": "https://systemvetardagen.se",
+    "source": "https://github.com/Systemvetardagen/Systemvetardagen",
+    "tags": ["React", "TailwindCSS", "Netlify"]
+  },
+  {
     "title": "num2kana",
-    "description": "Npm package to convert arabic numerals into kanji, hiragana or katakana, useful for learning to count in japanese.",
+    "description": "NPM package for converting Arabic numerals to Japanese writing systems (kanji, hiragana, and katakana). A practical tool for Japanese language learners to master number pronunciation and writing.",
     "video": "/videos/num2kana.mp4",
     "link": "https://num2kana.fredriketsare.se/",
     "source": "https://www.npmjs.com/package/num2kana",
@@ -39,7 +46,7 @@
   },
   {
     "title": "APK Web Extension",
-    "description": "Web extension for systembolaget.se to view and sort by APK value (Alcohol per krona)",
+    "description": "Chrome extension for systembolaget.se that calculates and displays APK (Alcohol Per Krona) values, enabling users to compare and sort products by value efficiency.",
     "image": "/images/apk.jpg",
     "link": "https://chromewebstore.google.com/detail/systemet-apk/ilgojcalknncdkjinjcaalhkodlflcef",
     "source": "https://github.com/fetsare/APK-Extension-Systembolaget",
@@ -47,7 +54,7 @@
   },
   {
     "title": "Game of Life",
-    "description": "Game of life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.",
+    "description": "Implementation of Conway's Game of Life, the famous cellular automaton created by John Horton Conway in 1970.",
     "video": "/videos/gameoflife.mp4",
     "source": "https://github.com/fetsare/Game-Of-life",
     "tags": ["Cellular Automaton", "JavaScript"]
