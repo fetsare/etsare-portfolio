@@ -16,9 +16,9 @@
   {
     "title": "SL Departure Kiosk",
     "description": "Real-time public transport departure board for Stockholm's transit system. Designed specifically for display at a Student Union bar, providing live departure information on a kiosk-style interface.",
-    "image": "/images/kiosk.png",
+    "image": "/images/kiosk.webp",
     "source": "https://github.com/fetsare/foo-depart",
-    "link": "https://foo-depart.vercel.app",
+    "link": "https://depart.fredriketsare.se",
     "tags": ["TypeScript", "Real-time Data", "Web App"]
   },
   {
