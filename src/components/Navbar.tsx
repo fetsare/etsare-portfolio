@@ -11,10 +11,10 @@ const links: { href: string; label: string }[] = [
     href: "/projects",
     label: "Projects",
   },
-  {
-    href: "/book-reviews",
-    label: "Book Reviews",
-  },
+  // {
+  //   href: "/book-reviews",
+  //   label: "Book Reviews",
+  // },
 ];
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex">
+    <nav className="flex flex-col sm:flex-row">
       {links.map((link, index) => (
         <React.Fragment key={index}>
           <FadeInSection direction="up" delay={(index + 1) * 100}>
@@ -45,7 +45,7 @@ const Navbar = () => {
           </FadeInSection>
           <FadeInSection direction="up" delay={(index + 1) * 150}>
             {index !== links.length - 1 && (
-              <span className="text-xl mx-2">•</span>
+              <span className="text-xl mx-2 hidden sm:inline">•</span>
             )}
           </FadeInSection>
         </React.Fragment>

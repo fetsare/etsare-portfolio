@@ -1,5 +1,5 @@
-import { useEffect, useState, useMemo } from "react";
-import { bookReviews } from "../content/meta";
+import { useState, useMemo } from "react";
+import { useBooks } from "../context/BookContext";
 import FadeInSection from "../components/FadeInSection";
 import {
   IconSearch,
@@ -8,82 +8,10 @@ import {
   IconStar,
 } from "@tabler/icons-react";
 
-interface BookData {
-  title: string;
-  thumbnail?: string;
-  authors?: string[];
-}
-
-interface BookReviewWithData {
-  isbn: string;
-  rating: number;
-  bookData?: BookData;
-  loading: boolean;
-  error?: string;
-}
-
 const BookReviews = () => {
-  const [books, setBooks] = useState<BookReviewWithData[]>(
-    bookReviews.map((review) => ({ ...review, loading: true }))
-  );
+  const { books } = useBooks();
   const [searchQuery, setSearchQuery] = useState("");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
-
-  useEffect(() => {
-    const fetchBookData = async (isbn: string, index: number) => {
-      try {
-        const response = await fetch(
-          `https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`
-        );
-        const data = await response.json();
-
-        if (data.items && data.items.length > 0) {
-          const bookInfo = data.items[0].volumeInfo;
-          setBooks((prev) => {
-            const updated = [...prev];
-            updated[index] = {
-              ...updated[index],
-              bookData: {
-                title: bookInfo.title || "Unknown Title",
-                thumbnail: bookInfo.imageLinks?.thumbnail?.replace(
-                  "http://",
-                  "https://"
-                ),
-                authors: bookInfo.authors,
-              },
-              loading: false,
-            };
-            return updated;
-          });
-        } else {
-          setBooks((prev) => {
-            const updated = [...prev];
-            updated[index] = {
-              ...updated[index],
-              loading: false,
-              error: "Book not found",
-            };
-            return updated;
-          });
-        }
-      } catch (error) {
-        console.error("Error fetching book data:", error);
-        setBooks((prev) => {
-          const updated = [...prev];
-          updated[index] = {
-            ...updated[index],
-            loading: false,
-            error: "Failed to load book data",
-          };
-          return updated;
-        });
-      }
-    };
-
-    bookReviews.forEach((review, index) => {
-      fetchBookData(review.isbn, index);
-    });
-  }, []);
 
   const filteredAndSortedBooks = useMemo(() => {
     let filtered = books;
